@@ -1,0 +1,7 @@
+- createElement ✅
+- render ✅
+- concurrent mode ✅
+- fiber tree ✅
+- Render and commit phases ✅
+- Reconciliation ✅
+- FC
