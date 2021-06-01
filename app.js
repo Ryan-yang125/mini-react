@@ -10,4 +10,4 @@ const element = (
 
 const container = document.getElementById("root");
 
-ReactDOM.render(element, container);
+Pre.render(element, container);
