@@ -281,4 +281,3 @@ const Cre = {
 
 export default Cre;
 // TODO fix type bugs https://github.com/facebook/react/blob/master/packages/scheduler/src/SchedulerPriorities.js
-// Step VII: Function Components
