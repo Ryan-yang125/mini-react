@@ -1,8 +1,8 @@
-import Pre from "./pre";
+import Cre from "./cre";
 
-/** @jsx Pre.createElement */
+/** @jsx Cre.createElement */
 function App(props) {
-  const [time, setTime] = Pre.useState(0);
+  const [time, setTime] = Cre.useState(0);
   return (
     <div>
       <h1>
@@ -21,4 +21,4 @@ function App(props) {
 
 const container = document.getElementById("root");
 
-Pre.render(<App name="world" />, container);
+Cre.render(<App name="world" />, container);

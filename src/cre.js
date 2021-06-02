@@ -273,12 +273,12 @@ function reconcileChildren(wipFiber, elements) {
   }
 }
 
-const Pre = {
+const Cre = {
   createElement,
   render,
   useState,
 };
 
-export default Pre;
+export default Cre;
 // TODO fix type bugs https://github.com/facebook/react/blob/master/packages/scheduler/src/SchedulerPriorities.js
 // Step VII: Function Components
