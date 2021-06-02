@@ -166,8 +166,8 @@ function performUnitOfWork(fiber) {
   }
 }
 
-let wipFiber = null;
-let hookIndex = -1;
+export let wipFiber = null;
+export let hookIndex = -1;
 
 function updateFunctionComponent(fiber) {
   wipFiber = fiber;
@@ -272,7 +272,7 @@ function reconcileChildren(wipFiber, elements) {
     i++;
   }
 }
-
+// import { useState } from "./hooks/useState";
 const Cre = {
   createElement,
   render,
