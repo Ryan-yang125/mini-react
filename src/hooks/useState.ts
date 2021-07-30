@@ -1,5 +1,5 @@
 import { wipFiber, hookIndex } from "../cre";
-export function useState(initialValue) {
+export function useState(initialValue: any) {
   const oldHook =
     wipFiber.alternate &&
     wipFiber.alternate.hooks &&
