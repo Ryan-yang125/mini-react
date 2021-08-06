@@ -19,7 +19,7 @@ const handler = {
   },
   set(target, key, value) {
     // TODO
-    reactionsMap[key].forEach(component => component.forceUpdate());
+    // reactionsMap[key].forEach(component => component.forceUpdate());
     target[key] = value;
     return true;
   }
@@ -29,7 +29,7 @@ export function store(obj) {
 }
 
 export function view(component) {
-  return class Observer extends MyComponent {
+  return class Observer extends component {
     ID = `${Math.floor(Math.random() * 10e9)}`;
 
     render() {
